@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce | Online Electronic Shoping</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+
+</head>
+
+<body>
+    <div class="background-image">
+        <img src="images/Background-image.jpg" alt="">
+    </div>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">E-commerce</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto gap-5 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 hero">
+                <h1>Welcome to E-commerce</h1>
+                <p>Here you can find all the products you need</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <h1>About Us</h1>
+        <p>Welcome to E-commmerce! We are dedicated to providing exceptional products and services that meet the needs
+            of our customers. Our mission is to create a seamless shopping experience that combines quality,
+            convenience, and customer satisfaction.
+            <br>
+            At E-commmerce, we believe in the power of innovation and strive to stay ahead of the curve in the
+            ever-evolving e-commerce landscape. Our team is passionate about curating a diverse range of products that
+            cater to various tastes and preferences, ensuring that there is something for everyone.
+            <br>
+            We value transparency, integrity, and excellence in everything we do. Our commitment to customer service
+            means that we are always here to assist you with any inquiries or concerns you may have. Your satisfaction
+            is our top priority, and we work tirelessly to ensure that your experience with us is nothing short of
+            exceptional.
+            <br>
+            Join us on this journey as we continue to grow and evolve, bringing you the best products and services in
+            the market. Thank you for choosing E-commmerce!
+        </p>
+    </div>
+    <div class="products" id="Products">
+        <h1>Products</h1>
+        <div class="container">
+            <div class="row row-gap-4" id="Product-container">
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <h1>Contact Us</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 contact-left">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.975073478724!2d-73.83604522152557!3d40.76257297129275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2600f928bb159%3A0x939edd86cd71a6ef!2s123%20Main%20St%2C%20Flushing%2C%20NY%2011354%2C%20USA!5e0!3m2!1sen!2s!4v1731568925360!5m2!1sen!2s"
+                        height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="icons">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form">
+                        <form id="contact-form">
+                            <h1>Get in Touch</h1>
+                            <label for="">Name</label><br>
+                            <input type="text" id="name" name="name"><br>
+                            <label for="">Email</label><br>
+                            <input type="email" id="email" name="email" placeholder="Email"><br>
+                            <label for="">Massage</label><br>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <button class="neu-button">Press me</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h2>E-commerce</h2>
+                    <p>Discover our story and the values that drive us. <a href="#about">About us</a></p>
+                </div>
+                <div class="col-sm-4 quick">
+                    <h2>Quick links</h2>
+                    <a href="#">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#Products">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="col-sm-4">
+                    <h2>Get in touch</h2>
+                    <p>Address: 123 Main St, Anytown, USA</p>
+                    <p>Phone: 555-555-5555</p>
+                    <p>Email: <a href="#">info@e-commerce.com </a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <p>© 2024 E-commerce. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+    <script src="bootstrap.js"></script>
+</body>
+
+</html>
